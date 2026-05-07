@@ -14,7 +14,7 @@ This module covers numerical methods for finding roots (zeros) of nonlinear equa
 | 02 | [`02_Newton_Raphson.ipynb`](./02_Newton_Raphson.ipynb) | Newton-Raphson Method | ✅ Ready |
 | 03 | `03_Secant.ipynb` | Secant Method | ✅ Ready  |
 | 04 | `04_Regula_Falsi.ipynb` | Regula Falsi (False Position) | ✅ Ready  |
-| 05 | `05_Fixed_Point.ipynb` | Fixed-Point Iteration | 🔜 Coming soon |
+| 05 | `05_Fixed_Point.ipynb` | Fixed-Point Iteration | ✅ Ready  |
 | 06 | `06_Muller.ipynb` | Müller's Method | 🔜 Coming soon |
 
 ---
@@ -46,7 +46,7 @@ This module covers numerical methods for finding roots (zeros) of nonlinear equa
 - **Requires:** Bracketing interval; no derivative
 - **Best for:** Guaranteed convergence with better speed than Bisection
 
-### 05 — Fixed-Point Iteration *(coming soon)*
+### 05 — Fixed-Point Iteration 
 - **Basis:** Rewrite $f(x)=0$ as $x = g(x)$; iterate $x_{n+1} = g(x_n)$
 - **Convergence:** Linear when $|g'(r)| < 1$ (contraction mapping)
 - **Requires:** Valid rearrangement $g$ and initial guess
