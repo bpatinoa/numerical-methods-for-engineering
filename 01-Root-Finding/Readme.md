@@ -12,8 +12,8 @@ This module covers numerical methods for finding roots (zeros) of nonlinear equa
 |---|----------|--------|--------|
 | 01 | [`01_Bisection.ipynb`](./01_Bisection.ipynb) | Bisection Method | ✅ Ready |
 | 02 | [`02_Newton_Raphson.ipynb`](./02_Newton_Raphson.ipynb) | Newton-Raphson Method | ✅ Ready |
-| 03 | `03_Secant.ipynb` | Secant Method | 🔜 Coming soon |
-| 04 | `04_Regula_Falsi.ipynb` | Regula Falsi (False Position) | 🔜 Coming soon |
+| 03 | `03_Secant.ipynb` | Secant Method | ✅ Ready  |
+| 04 | `04_Regula_Falsi.ipynb` | Regula Falsi (False Position) | ✅ Ready  |
 | 05 | `05_Fixed_Point.ipynb` | Fixed-Point Iteration | 🔜 Coming soon |
 | 06 | `06_Muller.ipynb` | Müller's Method | 🔜 Coming soon |
 
@@ -34,13 +34,13 @@ This module covers numerical methods for finding roots (zeros) of nonlinear equa
 - **Requires:** Good initial guess $x_0$; first derivative $f'(x)$
 - **Best for:** Fast refinement when $f'$ is available and $x_0$ is close to root
 
-### 03 — Secant Method *(coming soon)*
+### 03 — Secant Method 
 - **Basis:** Finite-difference approximation of $f'$ using two previous iterates
 - **Convergence:** Superlinear (order ≈ 1.618, golden ratio)
 - **Requires:** Two initial guesses $x_0, x_1$; **no derivative needed**
 - **Best for:** Newton-Raphson speed without explicit derivative computation
 
-### 04 — Regula Falsi (False Position) *(coming soon)*
+### 04 — Regula Falsi (False Position) 
 - **Basis:** IVT + secant line through bracket endpoints (always maintains bracket)
 - **Convergence:** Linear but faster than Bisection in practice
 - **Requires:** Bracketing interval; no derivative
