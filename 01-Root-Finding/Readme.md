@@ -15,7 +15,7 @@ This module covers numerical methods for finding roots (zeros) of nonlinear equa
 | 03 | `03_Secant.ipynb` | Secant Method | ✅ Ready  |
 | 04 | `04_Regula_Falsi.ipynb` | Regula Falsi (False Position) | ✅ Ready  |
 | 05 | `05_Fixed_Point.ipynb` | Fixed-Point Iteration | ✅ Ready  |
-| 06 | `06_Muller.ipynb` | Müller's Method | 🔜 Coming soon |
+| 06 | `06_Muller.ipynb` | Müller's Method | ✅ Ready  |
 
 ---
 
@@ -52,7 +52,7 @@ This module covers numerical methods for finding roots (zeros) of nonlinear equa
 - **Requires:** Valid rearrangement $g$ and initial guess
 - **Best for:** Understanding convergence theory; precursor to Newton-Raphson
 
-### 06 — Müller's Method *(coming soon)*
+### 06 — Müller's Method 
 - **Basis:** Quadratic interpolation through three points
 - **Convergence:** Order ≈ 1.84 (superlinear)
 - **Requires:** Three initial guesses; finds complex roots
